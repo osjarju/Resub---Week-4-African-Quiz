@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <!--Start Quiz Button-->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!--info Box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules of the Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You have only <span>15 seconds</span> for each question.</div>
+            <div class="info">2. Once you select an answer, you are doomed.</div>
+            <div class="info">3. You can't make a selection once time is out.</div>
+            <div class="info">4. Once you start you can't quit.</div>
+            <div class="info">5. Answer correctly and accrue points.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!--Quiz Box-->
+    <div class="quiz_box">
+        <header>
+            <div class="title">How Much Do You Know About Africa?</div>
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span>Welcome to _____________ home of the pyramids of Giza</span> -->
+            </div>
+            <div class="option_list">
+                <!--<div class="option">
+                    <span>Morocco</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>Algeria</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Egypt</span>
+                </div>
+                <div class="option">
+                    <span>Eritrea</span>
+                </div>-->
+            </div>
+        </section>
+
+        <!--Quiz Box Footer-->
+        <footer>
+            <div class="total_que">
+                <!--<span>
+                    <p>2</p>of
+                    <p>5</p>Questions
+                </span>-->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!--Results-->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fa-solid fa-earth-africa"></i>
+        </div>
+        <div class="complete_text">How Much You Know Africa?</div>
+        <div class="score_text">
+            <!--<span>You got only <p>2 </p> out of <p> 5</p></span> -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Play Again</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+    <script src="./assets/questions.js"></script>
+</body>
+
+</html>
